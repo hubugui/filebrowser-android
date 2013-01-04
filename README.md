@@ -1,13 +1,15 @@
 filebrowser-android
 ===================
 
-Feature:
+Feature
+===================
 
 1. browse files from the specified directory.
 2. click the file to open. 
 3. easily integrated into your APK applications.
 
-Usage:
+Usage
+===================
 
 1. copy res and src to your Android project directory.
 2. how to start it? 
@@ -20,6 +22,12 @@ intent.putExtra("root_dir", "/sdcard/");
 
 startActivity(intent);
 
-Future:
+Future
+===================
 
 1. add 'start_mode' equals "select_dir" and "select_file".
+
+Thanks
+===================
+
+1. http://blog.csdn.net/weich_java/article/details/7002829
