@@ -13,7 +13,9 @@ Usage:
 2. how to start it? 
 
 Intent intent = new Intent(this, FileBrowserActivity.class);
+
 intent.putExtra("start_mode", "browser");
+
 intent.putExtra("root_dir", "/sdcard/");
 
 startActivity(intent);
